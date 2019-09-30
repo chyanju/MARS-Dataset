@@ -1,7 +1,7 @@
 # MARS-Dataset
 This repository contains the dataset/benchmark related scripts (and data) for the paper "[Maximal Multi-layer Specification Synthesis](https://dl.acm.org/citation.cfm?doid=3338906.3338951)". 
 
-### off-the-shell dataset
+### off-the-shelf dataset
 
 The final dataset ready for use is `op_dataset.pkl`. It contains the formatted StackOverflow posts with questions, answers and post statistics (e.g., accepted status, number of stars and up-votes, etc.). For some of the answers that contain code snippets, we also parse them using a simple parser to extract the program syntax tree structures and sketches. While in order to feed the data into a sequence-to-sequence model, you may need to run an NLP pre-processing pipeline that fits your need by yourself.
 
